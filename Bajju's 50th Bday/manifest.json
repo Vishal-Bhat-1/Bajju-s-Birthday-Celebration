@@ -1,0 +1,13 @@
+{ 
+    "manifest_version": 3,
+    "name": "Bajju's 50th Birthday",
+    "version": "0.0.0.1",
+    "description": "Celebrating Appa's 50th birthday!",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["Content.js"]
+        }
+    ]
+}
+
